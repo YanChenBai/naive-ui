@@ -320,7 +320,8 @@ export default defineComponent({
       cssVars: inlineThemeDisabled ? undefined : cssVarsRef,
       themeClass: themeClassHandle?.themeClass,
       getTemplateEvents,
-      onRender: themeClassHandle?.onRender
+      onRender: themeClassHandle?.onRender,
+      focus: (index = 0) => focusOnChar(index)
     }
   },
   render() {

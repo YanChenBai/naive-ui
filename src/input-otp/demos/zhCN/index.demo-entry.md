@@ -46,3 +46,9 @@ rtl-debug.vue
 | 名称 | 参数 | 类型别名 | 说明 | 版本 |
 | --- | --- | --- | --- | --- |
 | default | `(props: InputProps & { index: number, ref: (inst: InputInst) => void })` | `InputOtpDefaultSlot` | 输入区域 | 2.41.1 |
+
+### InputOTP Methods
+
+| 名称 | 类型 | 说明 | 版本 |
+| --- | --- | --- | --- |
+| focus | `(index?: number)` | Focus 指定下标的输入框, 不传入参数时聚焦第一个输入框 | NEXT_VERSION |

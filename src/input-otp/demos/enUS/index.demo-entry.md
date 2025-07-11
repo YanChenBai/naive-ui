@@ -45,3 +45,9 @@ pattern.vue
 | Name | Parameters | Type Alias | Description | Version |
 | --- | --- | --- | --- | --- |
 | default | `(props: InputProps & { index: number, ref: (inst: InputInst) => void })` | `InputOtpDefaultSlot` | Input area. | 2.41.1 |
+
+### Input Methods
+
+| Name | Type | Description | Version |
+| --- | --- | --- | --- |
+| focus | `(index?: number)` | Focus the input box at the specified index. If no index is provided, focuses the first input box. | NEXT_VERSION |
